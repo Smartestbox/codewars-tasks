@@ -82,6 +82,6 @@ const greet = name => `Hello, ${name} how are you doing today?`
 // Description:
 // Simple, remove the spaces from the string, then return the resultant string.
 
-function noSpace(x){
+const noSpace = str => str.split(' ').join('')
 
-}
+//---------------------------------------------------------------------------------------------------------
