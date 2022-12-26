@@ -15,7 +15,7 @@ const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
 
 //---------------------------------------------------------------------------------------------------------
 
-// Codewars task 8 kyu task Century From Year
+// Codewars 8 kyu task Century From Year
 // Description:
 // The first century spans from the year 1 up to and including the year 100, the second century - 
 // from the year 101 up to and including the year 200, etc.
@@ -31,13 +31,20 @@ const century = year => year % 100 !== 0 ? Math.trunc(year/100) + 1 : Math.trunc
 
 //---------------------------------------------------------------------------------------------------------
 
-// Codewars task 8 kyu task Reversed Strings
+// Codewars 8 kyu task Reversed Strings
 // Description:
 // Complete the solution so that it reverses the string passed into it.
 // Examples
 // 'world'  =>  'dlrow'
 // 'word'   =>  'drow'
 
-function solution(str){
-  
+const solution = str => {
+    const strArr = [...str];
+    let reverseString = '';
+    for(let i = strArr.length - 1; i >= 0; i--) {
+      reverseString += strArr[i]
+    }
+    return reverseString;
 }
+
+//---------------------------------------------------------------------------------------------------------
