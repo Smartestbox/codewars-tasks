@@ -27,8 +27,7 @@ const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
 // 1601 --> 17
 // 2000 --> 20
 
-function century(year) {
-    // Finish this :)
-    return;
-  }
+const century = year => year % 100 !== 0 ? Math.trunc(year/100) + 1 : Math.trunc(year/100);
+
+//---------------------------------------------------------------------------------------------------------
 
