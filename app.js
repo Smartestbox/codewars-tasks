@@ -59,5 +59,21 @@ const solution = str => {
 // and false if they aren't.
 
 function lovefunc(flower1, flower2){
-    // moment of truth
+    if((!(flower1 % 2) && flower2 % 2) ||
+    (!(flower2 % 2) && flower1 % 2)) {
+      return true  
+    } else {
+      return false
+    }
+  }
+
+//---------------------------------------------------------------------------------------------------------
+
+// Codewars 8 kyu task Returning Strings
+// Description:
+// Make a function that will return a greeting statement that uses an input; your program should return, 
+// "Hello, <name> how are you doing today?".
+
+function greet(name){
+    
   }
