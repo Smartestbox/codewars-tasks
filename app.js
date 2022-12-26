@@ -31,3 +31,13 @@ const century = year => year % 100 !== 0 ? Math.trunc(year/100) + 1 : Math.trunc
 
 //---------------------------------------------------------------------------------------------------------
 
+// Codewars task 8 kyu task Reversed Strings
+// Description:
+// Complete the solution so that it reverses the string passed into it.
+// Examples
+// 'world'  =>  'dlrow'
+// 'word'   =>  'drow'
+
+function solution(str){
+  
+}
