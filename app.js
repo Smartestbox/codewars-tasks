@@ -75,3 +75,13 @@ function lovefunc(flower1, flower2){
 // "Hello, <name> how are you doing today?".
 
 const greet = name => `Hello, ${name} how are you doing today?`
+
+//---------------------------------------------------------------------------------------------------------
+
+// Codewars 8 kyu task Remove String Spaces
+// Description:
+// Simple, remove the spaces from the string, then return the resultant string.
+
+function noSpace(x){
+
+}
