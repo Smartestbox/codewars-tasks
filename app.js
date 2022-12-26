@@ -120,6 +120,17 @@ const noSpace = str => str.split(' ').join('')
 // 0 <= x <= 4
 // 0 <= y <= 4
 
-function points(games) {
-    return 0
-  }
+const points = games => {
+    totalPoints = 0;
+    for(let i = 0; i < games.length; i++) {
+      if(parseInt(games[i][0]) > parseInt(games[i][2])) {
+        totalPoints += 3;
+      } else if(parseInt(games[i][0]) === parseInt(games[i][2])) {
+        totalPoints += 1;
+      }
+    }
+    return totalPoints;
+}
+
+//---------------------------------------------------------------------------------------------------------
+
