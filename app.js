@@ -1,4 +1,4 @@
-// Codewars task "Will you make it?"
+// Codewars 8 kyu task "Will you make it?"
 // Description:
 // You were camping with your friends far away from home, but when it's time to go back, 
 // you realize that your fuel is running out and the nearest pump is 50 miles away! You 
@@ -15,4 +15,20 @@ const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
 
 //---------------------------------------------------------------------------------------------------------
 
+// Codewars task 8 kyu task Century From Year
+// Description:
+// The first century spans from the year 1 up to and including the year 100, the second century - 
+// from the year 101 up to and including the year 200, etc.
+// Task
+// Given a year, return the century it is in.
+// Examples
+// 1705 --> 18
+// 1900 --> 19
+// 1601 --> 17
+// 2000 --> 20
+
+function century(year) {
+    // Finish this :)
+    return;
+  }
 
