@@ -194,3 +194,16 @@ const countPositivesSumNegatives = input => {
   
     return [positiveCount , negativeSum];
 }
+
+//---------------------------------------------------------------------------------------------------------
+
+// Codewars 8 kyu task MakeUpperCase
+
+// Description:
+
+// Write a function which converts the input string to uppercase.
+
+function makeUpperCase(str) {
+
+}
+
