@@ -203,7 +203,7 @@ const countPositivesSumNegatives = input => {
 
 // Write a function which converts the input string to uppercase.
 
-function makeUpperCase(str) {
+const makeUpperCase = str => str.toUpperCase();
 
-}
+//---------------------------------------------------------------------------------------------------------
 
