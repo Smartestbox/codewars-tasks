@@ -207,3 +207,12 @@ const makeUpperCase = str => str.toUpperCase();
 
 //---------------------------------------------------------------------------------------------------------
 
+// Codewars 8 kyu task Remove exclamation marks
+
+// Description: 
+
+// Write function RemoveExclamationMarks which removes all exclamation marks from a given string.
+
+function removeExclamationMarks(s) {
+    return '';
+  }
