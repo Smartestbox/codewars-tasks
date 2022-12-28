@@ -213,6 +213,14 @@ const makeUpperCase = str => str.toUpperCase();
 
 // Write function RemoveExclamationMarks which removes all exclamation marks from a given string.
 
-function removeExclamationMarks(s) {
-    return '';
-  }
+const removeExclamationMarks = s => {
+    let newStr = '';
+    for(let i = 0; i < s.length; i++) {
+      if(s[i] !== '!') {
+        newStr += s[i]
+      }
+    }
+    return newStr;
+}
+
+  //---------------------------------------------------------------------------------------------------------
